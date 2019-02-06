@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% block body_block %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Details</title>
+<style>
+    h1{
+        text-align: center;
+        color: #4CAF50;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="jumbotron">
+
+<h1><em>Detail of {{ customer.name }}</em></h1><br>
+    <em><h3>Customer ID :{{ customer.id}}</h3></em>
+    <em><h3>Name :{{ customer.name }}</h3></em>
+    <em><h3>Age :{{ customer.age }}</h3></em>
+    <em><h3>Contact :{{ customer.contact }}</h3></em>
+    <em><h3>Address :{{ customer.address }}</h3></em>
+    <em><h3>Booking :{{ customer.booking }}</h3></em>
+
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+</body>
+{% endblock %}
+</html>

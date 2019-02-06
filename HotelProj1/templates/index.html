@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% block body_block %}
+<html lang="en">
+    {% load staticfiles %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Taj Krishna</title>
+
+
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <br><br>
+<div>
+    <h1><em><img src="{% static 'images/banner1.jpg' %}" style="width: 1000px" height="500px"></em></h1>
+        <h1><em><img src="{% static 'images/image4.jpg' %}" style="width: 500px" height="500px"></em></h1>
+</div>
+    </div>
+</div>
+</body>
+{% endblock %}
+</html>
